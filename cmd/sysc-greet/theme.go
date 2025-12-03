@@ -165,6 +165,18 @@ func applyTheme(themeName string, testMode bool) {
 		FgSecondary = lipgloss.Color("#cccccc") // Light gray
 		FgMuted = lipgloss.Color("#666666")     // Dark gray
 
+	case "glitchcandy":
+		// glitchcandy theme
+		BgBase = lipgloss.Color("#15131a")
+		BgElevated = BgBase
+		BgSubtle = BgBase
+		Primary = lipgloss.Color("#9e48ff")
+		Secondary = lipgloss.Color("ff5b24")
+		Accent = lipgloss.Color("#ff5b24")
+		FgPrimary = lipgloss.Color("#fffced")
+		FgSecondary = lipgloss.Color("#fffced")
+		FgMuted = lipgloss.Color("#7f7399")
+
 	default: // "default"
 		// Original Crush-inspired theme
 		BgBase = lipgloss.Color("#1a1a1a")

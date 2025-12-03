@@ -10,6 +10,7 @@ import (
 func (m model) navigateToThemesSubmenu() (tea.Model, tea.Cmd) {
 	m.menuOptions = []string{
 		"← Back",
+		"Theme: glitchcandy",
 		"Theme: Nord",
 		"Theme: Gruvbox",
 		"Theme: Material",
